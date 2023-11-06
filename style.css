@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.menu {
+    width: 20%;
+}
+
+h1 {
+    background-color: #404d68;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.group {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #5d687f;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+select {
+    margin-top: 1em;
+    padding: 0.5em;
+    border: 1px solid #5d687f;
+    border-radius: 5px;
+    color: #5d687f;
+    font-size: 1em;
+}
+
+.btns {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em;
+    border: 1px solid #5d687f;
+    border-radius: 5px;
+    color: #5d687f;
+    font-size: 1.4em;
+    background-color: white;
+    cursor: pointer;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1.3em;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    border: 1px solid #5d687f;
+    border-radius: 20px;
+}
+
+.timer:first-child {
+    margin: 0;
+}
+
+#time {
+}
+
+.grid {
+    width: 80%;
+    background-color: #a5a7b5;
+}
+
+table {
+    width: 98%;
+    height: 98%;
+    border-collapse: collapse;
+    margin: 1%;
+}
+
+.cell {
+    border: 1px solid #5d687f;
+    text-align: center;
+    font-size: 1.2em;
+    background: white;
+}
+
+.reveal {
+    background-color: #b9b9b9;
+    text-align: center;
+}
+
+span {
+    font-size: 100%;
+}
+
+.mine-counter {
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+#message {
+    width: 70%;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#win {
+    color: green;
+}
+
+#lose {
+    color: red;
+}
+
+.cell_1 {
+    color: rgb(69, 69, 255);
+}
+
+.cell_2 {
+    color: green;
+}
+
+.cell_3 {
+    color: red;
+}
+
+.cell_4 {
+    color: blue;
+}
+
+.cell_5 {
+    color: maroon;
+}
+
+.cell_6 {
+    color: rgb(50, 50, 50);
+}
+
+.flag {
+    cursor: default;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démineur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="menu">
+
+            <h1>Démineur</h1>
+
+            <div class="group">
+                <label for="mod">Choisir votre mode de jeu</label>
+                <select name="mod" id="mod">
+                    <option value="easy">9x9 - 10 mines</option>
+                    <option value="medium">16x16 - 40 mines</option>
+                    <option value="hard">30x16 - 99 mines</option>
+                </select>
+            </div>
+
+            <div class="btns">
+                <button id="reset">Recommencer</button>
+            </div>
+            
+            <div class="timer">
+                <span>⏱️</span>
+                <span id="time">00:00:000</span>
+            </div>
+
+            <div class="mine-counter">
+                <p><span id="counter">10</span>/<span id="counter-all">10</span>🚩</p>
+            </div>
+
+            <div id="message"></div>
+
+        </div>
+
+        <div class="grid">
+            <table></table>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
