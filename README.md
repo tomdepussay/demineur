@@ -1,7 +1,7 @@
 # Démineur
 
-Le démineur est un jeu dont le but est de localiser des mines cachées dans une grille, avec pour seule indication le nombre de mines dans les zones adjacentes.
-Ce jeu est une amélioration du <a href="https://github.com/tomdepussay/demineur_console">démineur en console</a>.
+Le démineur est un jeu dont le but est de localiser des mines cachées dans une grille, avec pour seule indication le nombre de mines dans les zones adjacentes. <br>
+Ce jeu est une amélioration du <a href="https://github.com/tomdepussay/demineur_console">démineur en console</a>. <br>
 Il est fait en HTML, CSS et JavaScript.
 
 ![image](https://github.com/tomdepussay/demineur/assets/109548814/48474ce8-c6d3-4d30-94ea-6e52fa4bcc08)
